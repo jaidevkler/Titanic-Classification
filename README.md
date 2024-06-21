@@ -25,7 +25,7 @@ titanic.csv [Click here to view](https://github.com/jaidevkler/Module-13-14-Revi
 ## How to run the program
 Download the files and then use jupyter notebook or jupyter lab to open the Titanic-Classification.ipynb file.<br />
 
-# Imports required
+## Imports required
 ```bash
 import pandas as pd
 import numpy as np
