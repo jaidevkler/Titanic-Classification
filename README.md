@@ -25,24 +25,9 @@ titanic.csv [Click here to view](https://github.com/jaidevkler/Module-13-14-Revi
 ## How to run the program
 Download the files and then use jupyter notebook or jupyter lab to open the Titanic-Classification.ipynb file.<br />
 
-## Imports required
+## Libraries required
 ```bash
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import plotly.express as px
-
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
-from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder
-from sklearn.decomposition import PCA
-from imblearn.over_sampling import RandomOverSampler
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC 
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn import tree
-from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, GradientBoostingClassifier, AdaBoostClassifier
-from sklearn.metrics import balanced_accuracy_score, accuracy_score, classification_report
+pip install -r requirements.txt
 ```
 
 ## Reference
